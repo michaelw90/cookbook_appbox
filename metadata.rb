@@ -1,4 +1,4 @@
-name             "appbox"
+name             "cookbook_appbox"
 maintainer       "Huiming Teo"
 maintainer_email "teohuiming@gmail.com"
 license          "Apache License 2.0"
@@ -8,6 +8,7 @@ version          "0.1.1"
 
 supports "ubuntu"
 supports "debian"
+supports "redhat"
 
 depends "apt"
 depends "sudo"
