@@ -12,7 +12,7 @@ def user_exists?(username)
 end
 
 unless user_exists? node["appbox"]["apps_user"]
-  include_recipe "appbox::users"
+  include_recipe "cookbook_appbox::users"
 end
 
 directory node['appbox']['apps_dir'] do
